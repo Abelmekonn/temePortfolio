@@ -35,7 +35,7 @@ const projectData = [
         title: 'Evangadi Forum',
         subtitle: 'Community discussion platform',
         description: 'A platform for users to engage in discussions, post questions, and reply to others on various topics.',
-        imgSrc: [forum1, photo, photo], // Multiple images
+        imgSrc: [forum1, forum1, forum1], // Multiple images
         githubLink: 'https://github.com/yourusername/evangadi-forum',
         livePreviewLink: 'https://forum-frontend-7wi.pages.dev/',
         techStack: ['React', 'Node.js', 'MongoDB', 'Express']
