@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
-import logo from '../assets/logo.png'
+import logo from '../assets/Abel3-removebg-preview.png'
 
 function Contact() {
     return (
@@ -9,18 +9,18 @@ function Contact() {
             className='py-10 mt-20 relative  mx-auto'
             style={{
                 background: 'linear-gradient(90deg, rgba(78,33,207,0.6) 0%, rgba(78,159,215,0.6) 90%)',
-                borderRadius: '13% 13% 0% 0% / 30% 30% 0% 0%',
+
             }}
         >
-            <div className='w-[90%] mx-auto'>
+            <div className='w-[90%] mx-auto '>
                 <h1 className="text-4xl sm:text-5xl font-playfair font-bold text-white text-center mb-10">
                     Contact
                 </h1>
-                <div className='flex text-white mt-10 gap-10 px-3'>
-                    <div className='w-1/2'>
+                <div className='flex md:flex-row flex-col text-white mt-10 gap-10 px-3'>
+                    <div className='md:w-1/2 '>
                         <h1 className='text-3xl font-bold mb-3'>Drop a message here</h1>
                         <p className='mb-5 text-xl font-semibold text-slate-400'>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit repudiandae, odit culpa aliquid eos vero a! Recusandae eligendi, vitae fugiat fugit dolor voluptatum, aspernatur esse eius voluptatem modi laborum architecto!
+                            Welcome to our platform! Here, we are committed to delivering exceptional services and innovative solutions tailored to meet your unique needs. Our team is dedicated to providing a seamless experience, ensuring that every interaction is smooth, efficient, and enjoyable. Explore our services, and let us help you achieve your goals with confidence and ease.
                         </p>
 
                         <div className='flex items-center gap-4 mb-4'>
@@ -32,7 +32,7 @@ function Contact() {
                             >
                                 <FaPhone size={20} />
                             </div>
-                            <p className='text-lg'>+242412423423</p>
+                            <p className='text-lg'>+251945774931</p>
                         </div>
 
                         <div className='flex items-center gap-4 mb-4'>
@@ -44,7 +44,7 @@ function Contact() {
                             >
                                 <FaEnvelope size={20} />
                             </div>
-                            <p className='text-lg'>email@example.com</p>
+                            <p className='text-lg'>Abelmekonn9@gmail.com</p>
                         </div>
 
                         <div className='flex items-center gap-4'>
@@ -56,12 +56,12 @@ function Contact() {
                             >
                                 <FaMapMarkerAlt size={20} />
                             </div>
-                            <p className='text-lg'>123 Street, City, Country</p>
+                            <p className='text-lg'>Adama, Ethiopia</p>
                         </div>
                     </div>
 
                     {/* You can add a form or map in this section */}
-                    <div className='w-1/2'>
+                    <div className='md:w-1/2'>
                         {/* Placeholder for a contact form or additional content */}
                         <div
                             className='px-6 py-6 rounded-xl mx-auto w-[80%] shadow-xl'
@@ -95,15 +95,15 @@ function Contact() {
                 <br />
                 <br />
                 <hr />
-                <div className='flex justify-between'>
-                    <img src={logo} alt="" className='w-[60px] h-[70px] ' />
+                <div className='flex justify-between flex-col md:flex-row'>
+                    <img src={logo} alt="" className='w-[60px] h-[70px] hidden md:block ' />
                     <p className='text-white text-xl self-center'>
-                        2024 -Temsgen,All right served
+                        2022 -Abel Mekonn,All right served
                     </p>
                     <ul className="example-2">
                         <li className="icon-content">
                             <a
-                                href="https://linkedin.com/"
+                                href="https://www.linkedin.com/in/abel-mekonn-pydev/"
                                 aria-label="LinkedIn"
                                 data-social="linkedin"
                             >
@@ -126,7 +126,7 @@ function Contact() {
                             <div className="tooltip">LinkedIn</div>
                         </li>
                         <li className="icon-content">
-                            <a href="https://www.github.com/" aria-label="GitHub" data-social="github">
+                            <a href="https://github.com/Abelmekonn" aria-label="GitHub" data-social="github">
                                 <div className="filled"></div>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"

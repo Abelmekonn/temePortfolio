@@ -18,13 +18,17 @@ export default {
       },
       colors: {
         'sky-custom': 'rgb(13,194,231)', // Light blue color
-        'blue-custom': 'rgb(28,18,203)'  // Darker blue color
+        'blue-custom': 'rgb(28,18,203)' , // Darker blue color
+        'scrollbar': '#4FB7DC'
       },
       backgroundColor :{
         "primary": "#101630",
       }
     },
   },
-  plugins: [],
+  plugins: [
+    // eslint-disable-next-line no-undef
+    require('tailwind-scrollbar'),
+],
 }
 

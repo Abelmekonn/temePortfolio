@@ -1,27 +1,46 @@
-import React from 'react';
-import { FaCode, FaMobileAlt, FaPaintBrush } from 'react-icons/fa'; // Import icons
+import React, { useEffect } from 'react';
+import { FaDatabase, FaServer, FaLaptopCode, FaCloud } from 'react-icons/fa'; // Import relevant icons
+import ScrollReveal from 'scrollreveal';
 
 const servicesData = [
     {
-        icon: <FaCode size={50} className="text-white" />,
-        title: 'Web Development',
-        description: 'We specialize in building responsive, secure, and scalable web applications using the latest technologies. From single-page applications to full-featured web platforms, we deliver solutions tailored to your specific business needs. Our web development services cover front-end, back-end, and everything in between, ensuring a seamless and powerful digital presence.',
+        icon: <FaLaptopCode size={50} className="text-white" />,
+        title: 'Full-Stack Web Development',
+        description: 'I provide end-to-end web development services, from building intuitive front-end interfaces to creating secure, scalable back-end systems. Using the latest technologies, I create robust web applications that align with your business needs, ensuring seamless integration and exceptional user experiences.',
     },
     {
-        icon: <FaMobileAlt size={50} className="text-white" />,
-        title: 'Mobile App Development',
-        description: 'Our team creates high-quality, cross-platform mobile applications that run smoothly on both iOS and Android devices. We focus on user experience, performance, and functionality to deliver apps that are both beautiful and intuitive. Whether you need a business app, an e-commerce platform, or a social networking solution, we have the expertise to bring your idea to life.',
+        icon: <FaServer size={50} className="text-white" />,
+        title: 'Backend Development & APIs',
+        description: 'Specializing in backend architecture, I design and implement reliable server-side logic, API endpoints, and data processing. I focus on creating efficient, secure, and scalable backend solutions that enhance functionality and provide a smooth experience across multiple devices and platforms.',
     },
     {
-        icon: <FaPaintBrush size={50} className="text-white" />,
-        title: 'UI/UX Design',
-        description: 'Design is more than just aesthetics—it’s about solving problems and creating experiences. We design user interfaces and experiences that are not only visually appealing but also user-friendly and efficient. We take a user-centric approach to design, ensuring your digital products look great and provide an intuitive and enjoyable experience for your customers.',
+        icon: <FaDatabase size={50} className="text-white" />,
+        title: 'Database Management & Optimization',
+        description: 'With expertise in both SQL and NoSQL databases, I build, optimize, and maintain data structures that ensure data integrity, quick access, and high performance. Whether handling large-scale data or optimizing queries, I design database solutions that support your application’s goals and scalability.',
+    },
+    {
+        icon: <FaCloud size={50} className="text-white" />,
+        title: 'DevOps & Deployment',
+        description: 'I manage deployment and infrastructure, including cloud services and CI/CD pipelines, to ensure your application is secure, scalable, and highly available. With expertise in containerization, automated deployment, and monitoring, I streamline the deployment process and ensure a seamless transition from development to production.',
     },
 ];
 
 function Service() {
+    useEffect(() => {
+        const sr = ScrollReveal({
+            distance: '50px',
+            duration: 1000,
+            easing: 'ease-in-out',
+            reset: false,
+            viewFactor: 0.2, // Elements appear when 20% of them is visible
+        });
+
+        sr.reveal('.reveal-bottom', { origin: 'bottom', interval: 200 });
+        sr.reveal('.reveal-left', { origin: 'left', interval: 200 });
+        sr.reveal('.reveal-right', { origin: 'right', interval: 300 });
+    }, []);
     return (
-        <div className='py-10 mt-9 w-[90%] mx-auto'>
+        <div id='services' className='py-10 mt-9 w-[90%] mx-auto'>
             <h1 className='text-5xl font-playfair font-bold text-white text-center mb-10'>
                 Services
             </h1>
@@ -30,7 +49,7 @@ function Service() {
                 {servicesData.map((service, index) => (
                     <div
                         key={index}
-                        className='rounded-xl shadow-2xl p-[6px]' // Outer container with padding
+                        className={`rounded-xl shadow-2xl p-[6px] ${index % 2 === 0 ? 'reveal-left' : 'reveal-right'}`} // Outer container with padding
                         style={{
                             background: 'linear-gradient(90deg, rgba(70,29,187,1) 0%, rgba(78,159,215,1) 100%)',
                             boxShadow: '0px 4px 20px rgba(70, 29, 187, 0.9)', // Border shadow effect

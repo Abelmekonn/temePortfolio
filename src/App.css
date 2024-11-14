@@ -137,3 +137,17 @@ ul {
 .example-2 .icon-content a[data-social="youtube"]~.tooltip {
     background-color: #ff0000;
 }
+
+/* App.css */
+.loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Fix to the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #101630; /* Optional background overlay */
+    z-index: 50; /* Ensure it overlays other content */
+}
