@@ -32,7 +32,7 @@ function Contact() {
                             >
                                 <FaPhone size={20} />
                             </div>
-                            <p className='text-lg'>+251945774931</p>
+                            <p className='text-lg'>+443 713 7979</p>
                         </div>
 
                         <div className='flex items-center gap-4 mb-4'>
@@ -44,7 +44,7 @@ function Contact() {
                             >
                                 <FaEnvelope size={20} />
                             </div>
-                            <p className='text-lg'>Abelmekonn9@gmail.com</p>
+                            <p className='text-lg'>temesgenandsow064@gmail.com</p>
                         </div>
 
                         <div className='flex items-center gap-4'>
@@ -56,7 +56,7 @@ function Contact() {
                             >
                                 <FaMapMarkerAlt size={20} />
                             </div>
-                            <p className='text-lg'>Adama, Ethiopia</p>
+                            <p className='text-lg'>Columbia Maryland, USA</p>
                         </div>
                     </div>
 
@@ -97,11 +97,11 @@ function Contact() {
                 <hr />
                 <div className='flex justify-between flex-col md:flex-row'>
                     <img src={logo} alt="" className='w-[60px] h-[70px] hidden md:block ' />
-                    <p className='text-white text-xl self-center'>
-                        2022 -Abel Mekonn,All right served
+                    <p className='text-white text-xl self-center mb-10'>
+                        2022 -Temesgen Andsow,All right served
                     </p>
                     <ul className="example-2">
-                        <li className="icon-content">
+                        <li className="icon-content ">
                             <a
                                 href="https://www.linkedin.com/in/abel-mekonn-pydev/"
                                 aria-label="LinkedIn"

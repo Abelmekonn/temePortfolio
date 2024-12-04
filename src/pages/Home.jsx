@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { styles } from '../style/style';
-import img from '../assets/pp.png';
+import img from '../assets/temepp.jpg';
 import ScrollReveal from 'scrollreveal';
 
 function Home() {
@@ -24,13 +24,13 @@ function Home() {
             {/* Text Section */}
             <div className="md:w-[60%] self-center flex flex-col items-start mb-6 md:mb-0 reveal-left">
                 <h1 className="hello text-4xl sm:text-5xl md:text-7xl font-bold mb-4">
-                    Hello! <br /> My name is <span className="name text-[#4EB7DB]">Abel</span>
+                    Hello! <br /> My name is <span className="name text-[#4EB7DB]">Temesgen</span>
                 </h1>
                 <h3 className="my-profession text-2xl sm:text-3xl md:text-4xl font-semibold mb-4">
                     I am a <span className="typing text-[#4EB7DB]">Full Stack Developer</span>
                 </h3>
                 <p className="mulish text-base sm:text-lg text-slate-400 mb-6">
-                    A passionate Developer based in Ethiopia. 📍
+                    A passionate Developer based in USA. 📍
                 </p>
                 <button className={`${styles.button} px-4 py-2 sm:px-6 sm:py-3 text-sm sm:text-base`}>
                     <a href="#portfolio">Previous Projects</a>

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { styles } from '../style/style';
-import photo from "../assets/IMG_8713 (2).jpg";
+import photo from "../assets/teme.jpg";
 import ScrollReveal from 'scrollreveal';
 
 function About() {
@@ -37,7 +37,7 @@ function About() {
                     About Me
                 </h1>
                 <p className='text-base sm:text-lg md:text-2xl font-medium md:text-left mb-4 text-gray-500'>
-                    Hello! I'm Abel, a passionate Front-end Developer and Web Designer based in Adama, Ethiopia. I specialize in creating dynamic and visually appealing websites and applications with a focus on user experience and functionality. With a strong foundation in React, JavaScript, and CSS, I enjoy bringing creative ideas to life in the digital space.
+                    Hello! I'm Temesgen, a passionate Front-end Developer and Web Designer based in Columbia Maryland,USA. I specialize in creating dynamic and visually appealing websites and applications with a focus on user experience and functionality. With a strong foundation in React, JavaScript, and CSS, I enjoy bringing creative ideas to life in the digital space.
                     <br /><br />
                     My journey into web development began out of a fascination with technology and a drive to continuously learn and grow in this ever-evolving field. I am always eager to embrace new challenges and am committed to delivering high-quality projects that make a positive impact.
                 </p>

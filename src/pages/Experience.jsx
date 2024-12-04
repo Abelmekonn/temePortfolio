@@ -7,12 +7,7 @@ const techStack = [
     { name: 'Bootstrap', icon: 'https://skillicons.dev/icons?i=bootstrap' },
     { name: 'JavaScript', icon: 'https://skillicons.dev/icons?i=js' },
     { name: 'React', icon: 'https://skillicons.dev/icons?i=react' },
-    { name: 'Next', icon: 'https://skillicons.dev/icons?i=nextjs' },
     { name: 'Node.js', icon: 'https://skillicons.dev/icons?i=nodejs' },
-    { name: 'Python', icon: 'https://skillicons.dev/icons?i=py' },
-    { name: 'Django', icon: 'https://skillicons.dev/icons?i=django' },
-    { name: 'Flask', icon: 'https://skillicons.dev/icons?i=flask' },
-    { name: 'WordPress', icon: 'https://skillicons.dev/icons?i=wordpress' },
     { name: 'Git', icon: 'https://skillicons.dev/icons?i=git' },
     { name: 'GitHub', icon: 'https://skillicons.dev/icons?i=github' },
     { name: 'MongoDB', icon: 'https://skillicons.dev/icons?i=mongo' },
@@ -20,7 +15,6 @@ const techStack = [
     { name: 'VS Code', icon: 'https://skillicons.dev/icons?i=vscode' },
     { name: 'Postman', icon: 'https://skillicons.dev/icons?i=postman' },
     { name: 'Docker', icon: 'https://skillicons.dev/icons?i=docker' },
-
 ];
 
 function Experience() {
